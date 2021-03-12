@@ -1,0 +1,140 @@
+.bg-transparent {
+  background-color: transparent !important;
+}
+.site-footer {
+  padding-top: 0;
+  padding-bottom: 26px;
+  overflow: hidden;
+}
+.footer-middle {
+  padding-top: 70px;
+  padding-bottom: 73px;
+}
+.footer-middle p {
+  padding: 24px 0 35px;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+.soc-icons a {
+  height: 25px;
+  margin-right: 19px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+.fa-dribbble svg {
+  fill: #000;
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  &:hover {
+    fill: #ea4c89;
+  }
+}
+.fa-behance svg {
+  fill: #000;
+  width: 32px;
+  height: 21px;
+  transition: all 0.3s;
+  &:hover {
+    fill: #053eff;
+  }
+}
+.fa-instagram svg {
+  fill: #000;
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  &:hover {
+    fill: #c13584;
+  }
+}
+.fa-twitter svg {
+  fill: #000;
+  width: 24px;
+  height: 21px;
+  transition: all 0.3s;
+  &:hover {
+    fill: #458eff;
+  }
+}
+.fa-producthunt svg {
+  fill: #000;
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  &:hover {
+    fill: #da552f;
+  }
+}
+
+.footer-middle .widget_nav_menu .widget-title {
+  font-family: "Inter";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
+  padding: 0;
+  margin-bottom: 21px;
+  border: 0;
+  display: block;
+  color: #000;
+}
+.widget_nav_menu ul {
+  margin: 0;
+}
+.footer-middle .widget_nav_menu ul li {
+  padding: 0;
+  margin-bottom: 10px;
+  line-height: 1;
+  list-style-type: none;
+}
+.footer-middle .widget_nav_menu ul li a {
+  text-decoration: none !important;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  &:hover {
+    color: #3121e6;
+  }
+}
+.footer-middle .widget_nav_menu ul li.pro-link a {
+  position: relative;
+  color: #3121e6;
+}
+.footer-middle .widget_nav_menu ul li.pro-link a:before {
+  content: "";
+  display: inline;
+  position: absolute;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='14' viewBox='0 0 12 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5 13.1896C5 13.9316 5.96242 14.223 6.37404 13.6056L10.8893 6.83269C11.2216 6.33428 10.8643 5.66667 10.2653 5.66667H6.66667V1.47708C6.66667 0.735024 5.70425 0.443629 5.29263 1.06106L0.777351 7.83397C0.445074 8.33239 0.802366 9 1.40139 9H5V13.1896Z' fill='%233121E6'/%3E%3C/svg%3E");
+  width: 12px;
+  height: 14px;
+  left: -17px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.footer-bottom p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+
+.soc-icons .row {
+  flex-wrap: nowrap;
+}
+
+.textwidget p {
+  font-family: "EuclidCircularA";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+.footer_first-block {
+  padding-left: 20px;
+}

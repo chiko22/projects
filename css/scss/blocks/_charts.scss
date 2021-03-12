@@ -1,0 +1,78 @@
+.charts {
+  background: #000;
+  padding-top: 112px;
+  padding-bottom: 515px;
+  overflow: hidden;
+  h2 {
+    color: #fff;
+    text-align: center;
+  }
+  p {
+    margin-top: 32px;
+    margin-bottom: 44px;
+    text-align: center;
+    color: #fff;
+  }
+  .btn__grey {
+    margin: 0 auto;
+    max-width: 278px;
+  }
+  .parallaxie {
+    box-shadow: 73px 38px 54px rgba(0, 0, 0, 0.28);
+    border-radius: 6px;
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+  }
+  .image-1 {
+    width: 744px;
+    // max-width: 744px;
+    // width: 100%;
+    left: 0;
+    z-index: 2;
+    top: 92px;
+  }
+  .image-2 {
+    width: 744px;
+    // max-width: 744px;
+    // width: 100%;
+    left: 788px;
+    z-index: 2;
+    top: 92px;
+  }
+  .image-3 {
+    width: 744px;
+    // max-width: 744px;
+    // width: 100%;
+    left: 1578px;
+    z-index: 2;
+    top: 92px;
+  }
+  .image-4 {
+    width: 744px;
+    // max-width: 744px;
+    // width: 100%;
+    left: 2353px;
+    z-index: 2;
+    top: 92px;
+  }
+  .image-5 {
+    width: 2112px;
+    left: 0;
+    z-index: 1;
+    top: 320px;
+  }
+  // .image-1 {
+  //   width: 2320px;
+  //   left: 0;
+  //   z-index: 2;
+  //   top: 80px;
+  // }
+  // .image-2 {
+  //   width: 2112px;
+  //   left: 0;
+  //   z-index: 1;
+  //   top: 300px;
+  // }
+}

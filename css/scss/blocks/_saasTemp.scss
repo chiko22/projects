@@ -1,0 +1,72 @@
+.saasTemp {
+  padding: 116px 0 100px;
+  background: #0a5dff;
+  position: relative;
+  overflow: hidden;
+  &__title {
+    color: #fff;
+    span {
+      display: block;
+    }
+  }
+  &__descr {
+    color: #fff;
+    margin-top: 32px;
+  }
+  .saasTemp__button {
+    margin-top: 44px;
+  }
+  &__items {
+    margin: 0;
+    justify-content: space-between;
+    &::before {
+      content: "";
+      display: block;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      width: 100%;
+      margin-top: 56px;
+      margin-bottom: 36px;
+    }
+  }
+  .empty {
+    max-width: 36px;
+    width: 100%;
+    display: flex;
+    flex-grow: 0;
+  }
+  &__item {
+    display: flex;
+    max-width: 210px;
+    align-items: center;
+    flex-grow: 1;
+    // &:first-of-type {
+    //   margin-right: 20%;
+    // }
+    div:first-child {
+      font-size: 52px;
+      font-weight: 500;
+      line-height: 63px;
+      letter-spacing: -1.399999976158142px;
+      margin-right: 16px;
+      color: #fff;
+    }
+    div:last-child {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: -1.399999976158142px;
+      color: #fff;
+    }
+  }
+  &__image {
+      position: absolute;
+      bottom: -5px;
+      right: -1%;
+      max-width: 913px;
+      width: 100%;
+      border-radius: 3.19694px;
+      img {
+          width: 98%;
+      }
+  }
+}

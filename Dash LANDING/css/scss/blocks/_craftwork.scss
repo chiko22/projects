@@ -1,0 +1,212 @@
+.craftwork {
+  background: #000;
+  padding: 95px 0 87px;
+  overflow: hidden;
+  &__title {
+    font-size: 80px;
+    font-weight: 400!important;
+    line-height: 109%;
+    text-align: center;
+    letter-spacing: -0.08em;
+    color: #ffffff;
+  }
+  &__descr {
+    margin: 0 auto;
+    margin-top: 27px;
+    max-width: 670px;
+    font-size: 26px;
+    line-height: 138.52%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+  }
+
+  &__block {
+    &_left {
+      border-right: 1px solid #fff;
+      font-family: "EuclidCircularA";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+    }
+    &_heading {
+      font-family: "EuclidCircularA";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 131.8%;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    &_text {
+      font-family: "EuclidCircularA";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 131.8%;
+      text-align: right;
+      color: #ffffff;
+    }
+  }
+}
+
+.product-row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.product-column {
+  margin-top: 47px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.category-title {
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 13px;
+  font-family: "EuclidCircularA", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+  padding-bottom: 13px;
+
+}
+
+.product-img {
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.product-img a {
+  position: relative;
+  padding-bottom: 74.9%;
+  overflow: hidden;
+}
+.blue-bg {
+  background: #DFE4EA;
+}
+.product-img a img {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+.product-img a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  z-index: -2;
+}
+.product-img a:hover {
+  box-shadow: 0px 30px 60px rgba(255, 255, 255, 0.2);
+}
+.d-block {
+  display: block !important;
+}
+.product-block-top {
+  padding: 18px 23px 17px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.craftwork h3 {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  font-family: "EuclidCircularA", Arial, sans-serif;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+}
+
+.free-for-pro {
+  height: 28px;
+  padding: 0 11px;
+  line-height: 20px;
+  border: 1px solid #f11414;
+  border-radius: 39px;
+  font-size: 16px;
+  color: #f11414;
+  a.free-for-pro:hover {
+    background: #f11414;
+    color: #fff;
+  }
+  a.free-for-pro:before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='14' viewBox='0 0 12 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5 13.1896C5 13.9316 5.96242 14.223 6.37404 13.6056L10.8893 6.83269C11.2216 6.33428 10.8643 5.66667 10.2653 5.66667H6.66667V1.47708C6.66667 0.735024 5.70425 0.443629 5.29263 1.06106L0.777351 7.83397C0.445074 8.33239 0.802366 9 1.40139 9H5V13.1896Z' fill='%23F11414'/%3E%3C/svg%3E");
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 14px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .free-for-pro:hover:before {
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='14' viewBox='0 0 12 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5 13.1896C5 13.9316 5.96242 14.223 6.37404 13.6056L10.8893 6.83269C11.2216 6.33428 10.8643 5.66667 10.2653 5.66667H6.66667V1.47708C6.66667 0.735024 5.70425 0.443629 5.29263 1.06106L0.777351 7.83397C0.445074 8.33239 0.802366 9 1.40139 9H5V13.1896Z' fill='%23FFFFFF'/%3E%3C/svg%3E");
+  }
+}
+.product-block-top .woocommerce-Price-amount {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -1px;
+}
+.product-block-middle {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.product-block-middle-left {
+  padding: 22px 23px;
+}
+.product-block-middle-left p {
+  font-family: "EuclidCircularA";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+}
+.product-block-middle-right {
+  border-left: 1px solid #fff;
+  padding: 19px 15px 14px;
+  .row {
+    margin-bottom: 7px;
+  }
+}
+.product-block-middle-right p {
+  font-size: 14px;
+  line-height: 18px;
+}
+.product-block-middle-right span {
+  font-size: 14px;
+  line-height: 28px;
+}
+.block-list {
+  line-height: 1;
+}
+.block-list > span:after {
+  content: ", ";
+}
+
+.craftwork .col-auto {
+  width: auto;
+}
+.woocommerce-Price-amount {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+.product-pr {
+  padding-right: 20px;
+}
